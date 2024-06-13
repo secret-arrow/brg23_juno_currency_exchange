@@ -1,0 +1,17 @@
+{
+  "canisters": {
+    "juno_call_canister_backend": {
+      "candid": "src/juno_call_canister_backend/juno_call_canister_backend.did",
+      "package": "juno_call_canister_backend",
+      "type": "rust"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}

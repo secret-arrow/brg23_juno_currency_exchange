@@ -1,0 +1,5 @@
+[workspace]
+members = [
+    "src/juno_call_canister_backend"
+]
+resolver = "2"

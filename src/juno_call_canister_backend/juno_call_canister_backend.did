@@ -1,0 +1,4 @@
+
+service : {
+    "Insert_Receipt": (record{"principal": text; "product_name": text; "price": int32; "currency": text;}) -> (bool, text);
+}
